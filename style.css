@@ -1,0 +1,9 @@
+:root{
+--laranja-escuro: #ff7b00ff;
+--laranja-claro: #ffa200ff;
+--amarelo-mostarda: #ffc300ff;
+--amarelo: #ffea00ff;
+}
+body{
+    background: var(--amarelo);
+}
