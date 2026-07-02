@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
---laranja-escuro: #ff7b00ff;
---laranja-claro: #ffa200ff;
---amarelo-mostarda: #ffc300ff;
---amarelo: #ffea00ff;
+    --laranja-escuro: #ff7b00ff;
+    --laranja-claro: #ffa200ff;
+    --amarelo-mostarda: #ffc300ff;
+    --amarelo: #ffea00ff;
+    --titulo: "Geist Pixel", sans-serif;
+    --texto: "Roboto Condensed", sans-serif;
 }
 body{
     background: var(--amarelo);
+    font-family: var(--texto);
+}
+h1{
+    font-family: var(--titulo);
 }
