@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --laranja-escuro: #ff7b00ff;
     --laranja-claro: #ffa200ff;
@@ -17,4 +22,13 @@ header{
     display: flex;
     justify-content: space-around;
     color: var(--laranja-claro);
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 10px;
+    color: var(--laranja-claro);
+    text-transform: uppercase;
+    font-size: 10px;
 }
