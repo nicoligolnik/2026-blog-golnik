@@ -18,10 +18,11 @@ body{
     font-family: var(--texto);
 }
 header{
-    background-color: var(--amarelo);
+    background-color: var(--laranja-escuro);
     display: flex;
     justify-content: space-around;
     color: var(--laranja-claro);
+    padding: 20px;
 }
 .menu{
     display: flex;
@@ -31,4 +32,8 @@ header{
     color: var(--laranja-claro);
     text-transform: uppercase;
     font-size: 10px;
+}
+.img-capa{
+    width: 100%;
+    height: 10%;
 }
