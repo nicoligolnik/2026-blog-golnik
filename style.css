@@ -10,6 +10,7 @@
     --laranja-claro: #ffa200ff;
     --amarelo-mostarda: #ffc300ff;
     --amarelo: #ffea00ff;
+    --preto:#000000;
     --titulo: "Geist Pixel", sans-serif;
     --texto: "Roboto Condensed", sans-serif;
 }
@@ -29,9 +30,18 @@ header{
     list-style: none;
     gap: 20px;
     margin: 10px;
-    color: var(--laranja-claro);
+    color: var(--preto);
     text-transform: uppercase;
     font-size: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: bold;
+}
+.menu a:hover{
+    color: var(--amarelo);
+    transition: 1s;
 }
 .img-capa{
     width: 100%;
